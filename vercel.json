@@ -1,6 +1,10 @@
 {
     "rewrites": [
-        { "source": "/api/", "destination": "https://blog-api-cyan-delta.vercel.app" },
-        { "source": "/(.*)", "destination": "/index.html" }
+      {
+        "source": "/api/:path*",
+        "destination": "https://blog-api-cyan-delta.vercel.app/:path*",
+        "methods": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+      }
     ]
-}
+  }
+  
