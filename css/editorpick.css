@@ -1,0 +1,14 @@
+.edit_pick {
+    margin: 35px;
+}
+
+.heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+}

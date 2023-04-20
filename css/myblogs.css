@@ -1,0 +1,57 @@
+.my_blg_box{
+    margin: 20px;
+}
+.add_button{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+#button_{
+    background-color: rgba(193, 190, 190, 0.1);
+    border-radius: 100%;
+    width:60px;
+    height:60px;
+    transition: 0.5s;
+    border: 1px solid silver;
+    box-shadow: 0px 0px 1px snow;
+}
+
+.text{
+    /* display:none; */
+    transition: 0.5s;
+    font-size: 13px;
+    font-family: 'Lora', serif;
+    transition: opacity 0.3s ease-in-out;
+    opacity:0;
+    width: 0px;
+    color: black;
+    font-weight: normal;
+    color:black;
+    line-height: 20px;
+}
+
+#button_:hover {
+    border-radius: 50px;
+    width: 200px;
+    transition: width 0.4s ease-in-out;
+}
+
+#button_:hover .text{
+    transition-delay: 0.2s;
+    width:100px;
+    opacity:1;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.myblg_cards{
+    display: grid;
+    /* flex-wrap: wrap; */
+    margin-bottom: 120px;
+    /* align-items: center; */
+    grid-template-columns: repeat(3, 1fr);
+  }
